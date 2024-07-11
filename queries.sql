@@ -4,7 +4,7 @@
 -- A1. Employees from 650 area code 
 SELECT * 
   FROM HR.Employees
- WHERE Phone_Number LIKE '515%';
+ WHERE Phone_Number LIKE '%515';
 
 -- A2. Employees with 501 in the phone number 
 SELECT * 
